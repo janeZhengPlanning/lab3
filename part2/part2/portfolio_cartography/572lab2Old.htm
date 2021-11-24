@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<style>
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-color:white;
+}
+
+.pics_in_a_row {
+  display: flex;
+}
+
+.img1 { flex: 1.3344; }
+.img2 { flex: 0.63; }
+.img3 { flex: 1.35; }
+
+.container {
+  background: white;
+  margin: 0 auto;
+  padding: 0px;
+  width: 100%;
+}
+
+
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  height: 10%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<body>
+
+<img class="centerImage" src="Lab2-1_title.jpg" width="88%" height="100%" border="0"/>
+
+
+<img class="centerImage" src="Lab2_1 signature maps.jpg" width="1280" height="622" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:hello -->
+<area shape="rect" coords="864,461,1250,563" href="https://api.mapbox.com/styles/v1/janezhenggis/ckv9ycja99ygz14p14fqh3h7f.html?title=view&amp;access_token=pk.eyJ1IjoiamFuZXpoZW5nZ2lzIiwiYSI6ImNrdWlrem44cTJwNXIybnFwZWd1bnV1eGcifQ.Jsjue1ShLY0ipszKYzSoZw&amp;zoomwheel=true&amp;fresh=true#" />
+<area shape="rect" coords="1560,352,1713,461"  nohref="nohref" />
+<area shape="rect" coords="1279,390,1607,843"  nohref="nohref" />
+</map>
+
+
+<img class="centerImage" src="Lab2-1_surrealism.jpg" border="0" width="87%" height="100%" border="0" />
+
+
+<div class='container'>
+  
+  <div class='pics_in_a_row'>
+    <div class='img1'>
+      <img src='lab2_1lowerleft.png' border="10px">
+    </div>
+    <div class='img2'>
+      <img src='lab2_1lowerright.png' border="10px">
+    </div>
+  </div>
+  
+</div>
+
+
+
+</body>
+</html>
